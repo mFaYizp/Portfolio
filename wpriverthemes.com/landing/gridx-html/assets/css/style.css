@@ -1865,7 +1865,10 @@ ol {
   .credential-area .credential-sidebar {
     width: 100%;
   }
-  .about-area .about-experience {
+  .about-area {
+    margin-bottom: 24px;
+  }
+  .about-experience{
     margin-bottom: 24px;
   }
   .projects-area .container > .row {
@@ -2113,4 +2116,14 @@ ol {
   flex-direction: column;
   align-items: center;
   text-align: center; */
+}
+.specializations{
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: 9;
 }
